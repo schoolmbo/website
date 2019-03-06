@@ -1,0 +1,199 @@
+body {
+    width: 99%;
+}
+
+#logo {
+    border-style: solid;
+    color: black;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #88c4d8;
+    position: relative;
+}
+
+#vlag {
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#achtergrond {
+    border-style: solid;
+    color: black;
+    height: 600px;
+    position: relative;
+    width: 100%;
+    background-image: url(images/Collage.png);
+}
+
+#video {
+    border: solid 1px transparent;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+.tekst {
+    border-style: solid;
+    color: black;
+    width: 570px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+.tekstdon {
+    border-style: solid;
+    color: black;
+    width: 570px;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#tekstkom {
+    border-style: solid;
+    color: black;
+    width: 570px;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: solid #333;
+}
+
+#navthing {
+    width: 50%;
+    margin-left: 28%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
+    background-color: #88c4d8;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+#change-video-select select {
+    display: none;
+}
+
+#change-video-select {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+#LinkMBO {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    border-style: solid;
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+.footerblock {
+    text-align: center;
+    height: 80px;
+    width: calc(40% - 2px);
+    border: 1px solid black;
+    float: left;
+}
+
+.footerblock.last {
+    width: calc(20% - 2px);
+}
+
+.footerblock:first-child {
+    background-color: #88c4d8;
+}
